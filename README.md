@@ -1,4 +1,9 @@
 # Aplicativo-P.O.R.A.H
+
+
+![iconemenor](https://github.com/OvidioOswaldo/Aplicativo-P.O.R.A.H/assets/33989895/f5f3c9fb-d690-482b-85d5-ef84b88d835b)
+
+
 ## Aplicativo de Cardápio P.O.R.A.H(Projeto da ORganização da Alimentação Humana)
 Bem-vindo ao README do Aplicativo do Cardápio P.O.R.A.H! Este projeto tem como objetivo fornecer uma solução prática e conveniente para os alunos que participam das aulas de eletivas, permitindo que eles acessem facilmente informações sobre os seus e de outros cardápios.
 
