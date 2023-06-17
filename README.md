@@ -30,4 +30,4 @@ Gostaria de dedicar este agradecimento especial à designer , Amy Lee Casimiro, 
 
 Obrigado, Amy, por sua dedicação, criatividade e por me ajudar a alcançar uma identidade visual única e impactante para o meu aplicativo. Estou extremamente agradecido por ter feito a logo.
 
-Créditos: @blueguyinspace
+### **Créditos: @blueguyinspace**
