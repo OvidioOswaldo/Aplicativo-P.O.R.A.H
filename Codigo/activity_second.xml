@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28sp"
+            android:text="Créditos de Desenvolvimento"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/infocreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="20sp"
+            android:text="Aplicativo P.O.R.A.H"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="351dp"
+            android:layout_height="189dp"
+            android:text="Bem-vindo à área de Aplicativo do Cardápio P.O.R.A.H! Este projeto tem como objetivo fornecer uma solução prática e conveniente para os alunos que participam das aulas de eletivas, permitindo que eles acessem facilmente informações sobre os seus e de outros cardápios."
+            android:layout_marginStart="30sp"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/aboutme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="32sp"
+            android:text="Sobre Mim"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/aboumetext"
+            android:layout_width="358dp"
+            android:layout_height="319dp"
+            android:layout_marginStart="30sp"
+            android:text="Olá! Meu nome é Ovidio Oswaldo, tenho 14 anos e sou um programador. Tenho habilidades em Python, Java e C++, e estou sempre em busca de aprender novas linguagens, como o Kotlin. Meu conhecimento em programação me levou a fazer este aplicativo de cardápio, onde trabalho para trazer uma experiência incrível aos usuários. Com minha experiência, estou tentando desenvolver este aplicativo para que vocês tenham acesso a todos os cardápios feitos."
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/agradecimentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="32sp"
+            android:text="Agradecimentos"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textoagradecimentos"
+            android:layout_width="358dp"
+            android:layout_height="282dp"
+            android:layout_marginStart="30sp"
+            android:text="Gostaria de dedicar este agradecimento especial à designer , Amy Lee Casimiro do 9ºAno C, pela sua contribuição excepcional na criação do logo do meu projeto, o Aplicativo P.O.R.A.H\nObrigado, Amy, por sua dedicação, criatividade e por me ajudar a alcançar uma identidade visual única e impactante para o meu aplicativo. Estou extremamente agradecido por ter feito a logo. "
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="110sp"
+            android:layout_marginBottom="100sp"
+            android:text="Instragram"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" "
+            android:layout_marginTop="40sp"
+            android:layout_marginStart="150sp"
+            android:textSize="15sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
