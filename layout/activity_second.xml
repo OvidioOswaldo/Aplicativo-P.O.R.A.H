@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SecondActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28sp"
+            android:text="@string/creditos_de_desenvolvimento"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/infocreditos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="20sp"
+            android:text="@string/aplicativo_porah"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="360dp"
+            android:layout_height="270dp"
+            android:layout_marginStart="30sp"
+            android:text="@string/descricao_porah"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/aboutme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="32sp"
+            android:text="@string/sobre_mim"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboumetext"
+            android:layout_width="349dp"
+            android:layout_height="369dp"
+            android:layout_marginStart="30sp"
+            android:text="@string/descricao_sobre_mim"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/agradecimentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="32sp"
+            android:text="@string/agradecimentos"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textoagradecimentos"
+            android:layout_width="364dp"
+            android:layout_height="291dp"
+            android:layout_marginStart="30sp"
+            android:text="@string/descricao_agradecimentos"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="110sp"
+            android:layout_marginBottom="100sp"
+            android:text="@string/instagram" />
+
+        <Button
+            android:id="@+id/btnCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/empty_text"
+            android:layout_marginTop="40sp"
+            android:layout_marginStart="150sp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

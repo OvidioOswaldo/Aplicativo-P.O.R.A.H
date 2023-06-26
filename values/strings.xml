@@ -1,0 +1,36 @@
+<resources>
+    <string name="diagnostico1"> Diagnostico: Hipoglicemia </string>
+    <string name="nomepaciente1"> Paciente: Jacinto</string>
+    <string name="app_name">Cardapio P.o.r.a.h</string>
+    <string name="Pacientes">Pacientes</string>
+    <string name="Refeicoes">Reifeções</string>
+    <string name="Prato">Prato</string>
+    <string name="creditos_de_desenvolvimento">Créditos de Desenvolvimento</string>
+    <string name="aplicativo_porah">Aplicativo P.O.R.A.H</string>
+    <string name="descricao_porah">Bem-vindo à área de Aplicativo do Cardápio P.O.R.A.H! Este projeto tem como objetivo fornecer uma solução prática e conveniente para os alunos que participam das aulas de eletivas, permitindo que eles acessem facilmente informações sobre os seus e de outros cardápios.</string>
+    <string name="sobre_mim">Sobre Mim</string>
+    <string name="descricao_sobre_mim">Olá! Meu nome é Ovidio Oswaldo, tenho 14 anos e sou um programador. Tenho habilidades em Python, Java e C++, e estou sempre em busca de aprender novas linguagens, como o Kotlin. Meu conhecimento em programação me levou a fazer este aplicativo de cardápio, onde trabalho para trazer uma experiência incrível aos usuários. Com minha experiência, estou tentando desenvolver este aplicativo para que vocês tenham acesso a todos os cardápios feitos.</string>
+    <string name="agradecimentos">Agradecimentos</string>
+    <string name="descricao_agradecimentos">Gostaria de dedicar este agradecimento especial à designer, Amy Lee Casimiro do 9ºAno C, pela sua contribuição excepcional na criação do logo do meu projeto, o Aplicativo P.O.R.A.H. Obrigado, Amy, por sua dedicação, criatividade e por me ajudar a alcançar uma identidade visual única e impactante para o meu aplicativo. Estou extremamente agradecido por ter feito a logo.</string>
+    <string name="instagram">Instagram</string>
+    <string name="empty_text"></string>
+    <string name="ProjetoPorah">Projeto P.O.R.A.H</string>
+
+    <string-array name="todos_pacientes">
+        <item>Jacinto</item>
+        <item>Pedro Silva de Alencar</item>
+        <item>Giovanna</item>
+        <item>Cristiano Ronaldo dos Santos</item>
+        <item>Igor Silva Santos</item>
+        <item>Jake</item>
+    </string-array>
+
+    <string-array name="diagnosticos">
+        <item>Hipoglicemia</item>
+        <item>Obesidade Tipo I</item>
+        <item>Gravidez</item>
+        <item>Refeição diaria de um Atleta</item>
+        <item>Problemas de Auto Imagem e Desnutrição</item>
+        <item>Obesidade(Normal)</item>
+    </string-array>
+</resources>
