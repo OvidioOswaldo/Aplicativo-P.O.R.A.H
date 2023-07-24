@@ -1,0 +1,57 @@
+<resources>
+//-------------------------- DIAMETROS INICIAIS -------------------------
+    <dimen name="card_initial_height">250sp</dimen>
+    <dimen name="card_initial_width">200sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+//-------------------------- Jacinto ------------------------------------
+    <dimen name="jacintosegunda">375sp</dimen>
+    <dimen name="jacintosegundalados">215sp</dimen>
+    <dimen name="jacintoterca">315sp</dimen>
+    <dimen name="jacintoquarta">345sp</dimen>
+    <dimen name="jacintoquinta">305sp</dimen>
+    <dimen name="jacintosexta">270sp</dimen>
+    <dimen name="jacintosabado">430sp</dimen>
+    <dimen name="jacintodomingo">375sp</dimen>
+//---------------------------- Pedro --------------------------------------
+    <dimen name="pedrosegunda">405sp</dimen>
+    <dimen name="pedroterca">300sp</dimen>
+    <dimen name="pedroquarta">285sp</dimen>
+    <dimen name="pedroquinta">265sp</dimen>
+    <dimen name="pedrosexta">320sp</dimen>
+    <dimen name="pedrosabado">265sp</dimen>
+    <dimen name="pedrodomingo">325sp</dimen>
+//----------------------------- Giovanna -----------------------------------
+    <dimen name="giovannasegunda">305sp</dimen>
+    <dimen name="giovannaterca">320sp</dimen>
+    <dimen name="giovannaquarta">395sp</dimen>
+    <dimen name="giovannaquinta">340sp</dimen>
+    <dimen name="giovannasexta">360sp</dimen>
+    <dimen name="giovannasabado">335sp</dimen>
+    <dimen name="giovannadomingo">320sp</dimen>
+//------------------------------ CR7 ----------------------------------------
+    <dimen name="cr7segunda">465sp</dimen>
+    <dimen name="cr7terca">420sp</dimen>
+    <dimen name="cr7quarta">390sp</dimen>
+    <dimen name="cr7quinta">390sp</dimen>
+    <dimen name="cr7sexta">390sp</dimen>
+    <dimen name="cr7sabado">415sp</dimen>
+    <dimen name="cr7domingo">405sp</dimen>
+//------------------------------- IGOR ---------------------------------------
+    <dimen name="igorsegunda">430sp</dimen>
+    <dimen name="igorterca">440sp</dimen>
+    <dimen name="igorquarta">385sp</dimen>
+    <dimen name="igorquinta">395sp</dimen>
+    <dimen name="igorsexta">395sp</dimen>
+    <dimen name="igorsabado">345sp</dimen>
+    <dimen name="igordomingo">325sp</dimen>
+//-------------------------------- JAKE ---------------------------------------
+    //Cadapio muito pequeno para ter tamanho para a animação do CardView.
+//-------------------------------- PARADADURA ---------------------------------
+    <dimen name="paradaduraSegunda">300sp</dimen>
+    <dimen name="paradaduraTerca">300sp</dimen>
+    <dimen name="paradaduraQuarta">300sp</dimen>
+    <dimen name="paradaduraQuinta">300sp</dimen>
+    <dimen name="paradaduraSexta">300sp</dimen>
+    <dimen name="paradaduraSabado">300sp</dimen>
+    <dimen name="paradaduraDomingo">300sp</dimen>
+</resources>
