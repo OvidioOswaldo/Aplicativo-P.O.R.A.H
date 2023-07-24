@@ -1,36 +1,95 @@
-<resources>
-    <string name="diagnostico1"> Diagnostico: Hipoglicemia </string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="empty_text"></string>
+    <string name="PDTexto">Texto do ParadaDura, a fazer(Não tenho os dados do ParadaDura</string>
+    <string name="PD">ParadaDura</string>
+    <string name="title_activity_jake">Projeto O.R.A.H</string>
+    <string name="preguica">Trabalho do Grupo, procurar os dados como Valor Energetico, Calorias,etc... Para colocar no Aplicativo.</string>
+    <string name="Amigos">Pedro e Kevin</string>
+    <string name="Paixao">Heloisa</string>
+    <string name="feitopormim">Feito por: Ovidio Oswaldo</string>
+    <string name="projetoorah">Projeto O.R.A.H</string>
+    <string name="Cardapio">Cardápio</string>
+    <string name="Segunda">Segunda</string>
+    <string name="Terça">Terça</string>
+    <string name="Quarta">Quarta</string>
+    <string name="Quinta">Quinta</string>
+    <string name="Sexta">Sexta</string>
+    <string name="Sabado">Sabado</string>
+    <string name="Domingo">Domingo</string>
+    <string name="Manha">Manha:</string>
+    <string name="Tarde">Tarde:</string>
+    <string name="Lanche">Lanche:</string>
+    <string name="Jantar">Jantar:</string>
+    <string name="casojake">Caso Jake</string>
+    <string name="diagnostico1"> Diagnostico:Probleams de Auto Imagem e Desnutrição </string>
     <string name="nomepaciente1"> Paciente: Jacinto</string>
-    <string name="app_name">Cardapio P.o.r.a.h</string>
+    <string name="app_name">Cardapio O.R.A.H</string>
     <string name="Pacientes">Pacientes</string>
     <string name="Refeicoes">Reifeções</string>
     <string name="Prato">Prato</string>
     <string name="creditos_de_desenvolvimento">Créditos de Desenvolvimento</string>
-    <string name="aplicativo_porah">Aplicativo P.O.R.A.H</string>
-    <string name="descricao_porah">Bem-vindo à área de Aplicativo do Cardápio P.O.R.A.H! Este projeto tem como objetivo fornecer uma solução prática e conveniente para os alunos que participam das aulas de eletivas, permitindo que eles acessem facilmente informações sobre os seus e de outros cardápios.</string>
+    <string name="aplicativo_porah">Aplicativo O.R.A.H</string>
+    <string name="descricao_porah" tools:ignore="Typos">Bem-vindo à área de Aplicativo do Cardápio O.R.A.H! Este projeto tem como objetivo fornecer uma solução prática e conveniente para os alunos que participam das aulas de eletivas, permitindo que eles acessem facilmente informações sobre os seus e de outros cardápios.</string>
     <string name="sobre_mim">Sobre Mim</string>
     <string name="descricao_sobre_mim">Olá! Meu nome é Ovidio Oswaldo, tenho 14 anos e sou um programador. Tenho habilidades em Python, Java e C++, e estou sempre em busca de aprender novas linguagens, como o Kotlin. Meu conhecimento em programação me levou a fazer este aplicativo de cardápio, onde trabalho para trazer uma experiência incrível aos usuários. Com minha experiência, estou tentando desenvolver este aplicativo para que vocês tenham acesso a todos os cardápios feitos.</string>
     <string name="agradecimentos">Agradecimentos</string>
-    <string name="descricao_agradecimentos">Gostaria de dedicar este agradecimento especial à designer, Amy Lee Casimiro do 9ºAno C, pela sua contribuição excepcional na criação do logo do meu projeto, o Aplicativo P.O.R.A.H. Obrigado, Amy, por sua dedicação, criatividade e por me ajudar a alcançar uma identidade visual única e impactante para o meu aplicativo. Estou extremamente agradecido por ter feito a logo.</string>
+    <string name="descricao_agradecimentos">Gostaria de dedicar este agradecimento especial à designer, Amy Lee Casimiro do 9ºAno C, pela sua contribuição excepcional na criação do logo do meu projeto, o Aplicativo O.R.A.H. Obrigado, Amy, por sua dedicação, criatividade e por me ajudar a alcançar uma identidade visual única e impactante para o meu aplicativo. Estou extremamente agradecido por ter feito a logo.</string>
     <string name="instagram">Instagram</string>
-    <string name="empty_text"></string>
-    <string name="ProjetoPorah">Projeto P.O.R.A.H</string>
+    <string name="pacientetxt">Paciente:</string>
+    <string name="diagnosticotxt">Diagnostico: </string>
+    <string name="sexotxt">Sexo:</string>
+    <string name="idadetxt">Idade: </string>
+    <string name="casoigor">Caso Igor</string>
+    <string name="ProjetoPorah">Projeto O.R.A.H</string>
+    <string name="casojacinto">Caso Jacinto</string>
+    <string name="casopedro">Caso Pedro Silva</string>
+    <string name="casocr7">Caso Cristiano Ronaldo</string>
+    <string name="casogiovanna">Caso Giovanna</string>
+    <string name="pedrotexto">O paciente Pedro Silva de Alencar, de 23 anos, é um jovem do sexo masculino. Ele foi diagnosticado com Obesidade Tipo I. Com um peso de 110kg e uma altura de 1,83m, o índice de massa corporal (IMC) de Pedro é calculado em 32,85. Essas informações indicam que Pedro está acima do peso ideal para sua altura, o que pode ter impactos na sua saúde e bem-estar</string>
+    <string name="Cr7Texto">Cristiano Ronaldo dos Santos é um paciente do sexo masculino, com 17 anos de idade. Ele possui não possui nenhum diagnóstico,entretanto, precisa ser analizado a sua alimentação,pois, ele é um atleta. Com um peso de 61,7 kg e uma altura de 1,73 m, Cristiano apresenta um Índice de Massa Corporal (IMC) de 20,61, indicando um peso saudável para sua altura.</string>
+    <string name="JacintoTexto">Jacinto é um paciente do sexo masculino, com 25 anos de idade, que foi diagnosticado com hipoglicemia. Ele tem um peso de 70 kg e uma altura de 1,60 m, resultando em um Índice de Massa Corporal (IMC) de 27,34, indicando sobrepeso.</string>
+    <string name="TextoGiovanna">Giovanna é uma paciente do sexo feminino, com 25 anos de idade. Atualmente, ela está na 14ª semana de gestação. Com um peso de 67 kg e uma altura de 1,70 m, seu Índice de Massa Corporal (IMC) é calculado em 23,18, o que indica um peso saudável para sua altura.</string>
+    <string name="IgorTexto">O paciente Igor Silva Santos é um menino de 7 anos de idade que está enfrentando desnutrição e problemas relacionados à sua autoimagem. Ele apresenta um peso de 25kg e uma altura de 1,30m, resultando em um índice de massa corporal (IMC) de 14,79.</string>
+    <string name="JakeTexto">O paciente Jake é um Yorkshire de 9 anos de idade. Ele foi diagnosticado com obesidade, apresentando um peso de 5kg, o que representa um percentual 25% acima do peso considerado saudável para sua idade e raça. Sua altura é de 22cm. Essas informações são importantes para avaliar e monitorar a condição de saúde do paciente Jake.
+</string>
 
     <string-array name="todos_pacientes">
-        <item>Jacinto</item>
-        <item>Pedro Silva de Alencar</item>
-        <item>Giovanna</item>
-        <item>Cristiano Ronaldo dos Santos</item>
-        <item>Igor Silva Santos</item>
-        <item>Jake</item>
+        <item>Paciente: Jacinto</item>
+        <item>Paciente: Pedro Silva de Alencar</item>
+        <item>Paciente: Giovanna</item>
+        <item>Paciente: Cristiano Ronaldo dos Santos</item>
+        <item>Paciente: Igor Silva Santos</item>
+        <item>Paciente: Jake</item>
+        <item>Cardapio Parada Dura</item>
+    </string-array>
+
+    <string-array name="idades">
+        <item>Idade: 25 Anos</item>
+        <item>Idade: 23 Anos</item>
+        <item>Idade: 25 Anos</item>
+        <item>Idade: 17 Anos</item>
+        <item>Idade: 7 Anos</item>
+        <item>Idade: 9 Anos</item>
+        <item>Idade: ?</item>
+    </string-array>
+
+    <string-array name="sexos">
+        <item>Sexo: Masculino</item>
+        <item>Sexo: Masculino</item>
+        <item>Sexo: Feminino</item>
+        <item>Sexo: Masculino</item>
+        <item>Sexo: Masculino</item>
+        <item>Sexo: Masculino</item>
+        <item>Sexo: ?</item>
     </string-array>
 
     <string-array name="diagnosticos">
-        <item>Hipoglicemia</item>
-        <item>Obesidade Tipo I</item>
-        <item>Gravidez</item>
-        <item>Refeição diaria de um Atleta</item>
-        <item>Problemas de Auto Imagem e Desnutrição</item>
-        <item>Obesidade(Normal)</item>
+        <item>Diagnostico: Hipoglicemia</item>
+        <item>Diagnostico: Obesidade Tipo I</item>
+        <item>Diagnostico: Gravidez</item>
+        <item>Diagnostico: Refeição diaria de um Atleta</item>
+        <item>Diagnostico: Problemas de Auto Imagem e Desnutrição</item>
+        <item>Diagnostico: Obesidade</item>
+        <item>Diagnostico :???</item>
     </string-array>
 </resources>
