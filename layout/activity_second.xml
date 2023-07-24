@@ -91,8 +91,7 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/empty_text"
             android:layout_marginTop="40sp"
-            android:layout_marginStart="150sp"
-            android:textSize="15sp" />
+            android:layout_marginStart="150sp" />
 
     </LinearLayout>
 </ScrollView>

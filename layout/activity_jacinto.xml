@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JakeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="130dp"
+                android:text="@string/casojacinto"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="245dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="@string/JacintoTexto"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="120sp"
+            android:layout_height="40sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="#FF0000"
+                app:cardCornerRadius="10sp"
+                app:cardElevation="5sp">
+
+                <TextView
+                    android:id="@+id/cardapiofrase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/Cardapio"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="italic" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </FrameLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="450sp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/segundaJacinto"
+                    android:layout_width="200sp"
+                    android:layout_height="250sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    app:cardBackgroundColor="@color/celeste"
+                    app:cardElevation="5sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55sp"
+                        android:gravity="center"
+                        android:text="@string/Segunda"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Manha:\n   Semente de Girasol\n   Bolacha Integral\n   Aveia\n   Suco de Laranja Natural\n\nAlmoço:\n    Peito de Frango Grelhado\n    Rucula Alface e Uva\n    Feijão Preto\n    Agua de Coco\n\nLanche:\n    Fatias de Queijo Grelhado\n\nJantar:\n    Arroz Integral\n    Cenour Cozida\n    Salmão"
+                        android:textSize="15sp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tercaJacinto"
+                    android:layout_width="200sp"
+                    android:layout_height="250sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    app:cardBackgroundColor="@color/celeste"
+                    app:cardElevation="5sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70sp"
+                        android:gravity="center"
+                        android:text="@string/Terça"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Manhã:\n    Vitaminas de Abacate\n    Castanha\n\nAlmoço:\n    Arroz\n    Carangueijo\n    Vinagrete com Azeite\n\nLanche:\n    Banana com nozes\n\nJantar:\n    Arroz Japonês\n    Tilapia Cru com Shoyo"
+                        android:textSize="15sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/quartaJacinto"
+                    android:layout_width="200sp"
+                    android:layout_height="250sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    app:cardBackgroundColor="@color/celeste"
+                    app:cardElevation="5sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65sp"
+                        android:gravity="center"
+                        android:text="@string/Quarta"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Manhã:\n    Aveia em Flocos\n    Morango\n    Arroz Japonês\n\nAlmoço:\n    Salada de Repolho\n    Azeitona\n    Carne de Jacaré\n\nLanche:\n    Mamão\n\nJantar:\n    Arroz\n    Brocolis\n    Repolho Roxo"
+                        android:textSize="15sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/quintaJacinto"
+                    android:layout_width="200sp"
+                    android:layout_height="250sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    app:cardBackgroundColor="@color/celeste"
+                    app:cardElevation="5sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65sp"
+                        android:gravity="center"
+                        android:text="@string/Quinta"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Manhã:\n    Bolo de Banana s/Gluten\n\nAlmoço:\n    Pedolha de Legumes:\n        -Brocolis\n        -Cenoura\n        -Beterraba\n        -Tomate\n\nLanche:\n    Pão de Queijo Multigrãos\n\nJantar:\n    Homus com Pão Rustico"
+                        android:textSize="15sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sextaJacinto"
+                    android:layout_width="210sp"
+                    android:layout_height="250sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    app:cardBackgroundColor="@color/celeste"
+                    app:cardElevation="5sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70sp"
+                        android:gravity="center"
+                        android:text="@string/Sexta"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Manhã:\n    Panqueca de Banana\n\nAlmoço:\n    Nhoque de Cenoura\n    Molho de Tomate Caseiro\n\nLanche:\n    Barra de Cereais Caseira\n\nJantar:\n    Escondidinho de Camarão\n    Abobóra"
+                        android:textSize="15sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sabadoJacinto"
+                    android:layout_width="200sp"
+                    android:layout_height="250sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    app:cardBackgroundColor="@color/celeste"
+                    app:cardElevation="5sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65sp"
+                        android:gravity="center"
+                        android:text="@string/Sabado"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="30sp"
+                        android:text="Manhã:\n    Iogurte Grego\n    Ovo Cozido\n    Torrada\n\nAlmoço:\n    Peixe Grelhdo\n    Batata Doce Cozida\n    Salada:\n       -Tomate\n       -Alface\n\nLanche:\n    2 Fatias de Torrada\n    Abacate\n\nJantar:\n    Guisado de Feijão:\n         -Lentilha\n         -Frango\n         -Batata Cozida\n         -Ervilha"
+                        android:textSize="15sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/domingoJacinto"
+                    android:layout_width="200sp"
+                    android:layout_height="250sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="10sp"
+                    app:cardBackgroundColor="@color/celeste"
+                    app:cardElevation="5sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65sp"
+                        android:gravity="center"
+                        android:text="@string/Domingo"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="30sp"
+                        android:text="
+Manhã:\n    Granola\n    Suco de Uva Integral\n\nAlmoço:\n    Macarrão Branco\n    Atum\n    Ovo\n    Tomate\n    Suco de Laranja Natural\n\nLanche:\n    Açai c/Sucrilhos\n\nJantar:\n    Salada de Pepino\n    Camarão\n    Palmito\n    Lentilha"
+                        android:textSize="15sp" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            app:cardBackgroundColor="@color/red">
+
+            <TextView
+                android:text="Tabela Calorica"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginLeft="120sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="380sp"
+            app:cardElevation="5sp">
+
+            <TextView
+                android:textColor="@color/black"
+                android:text="@string/preguica"
+                android:textSize="23sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
